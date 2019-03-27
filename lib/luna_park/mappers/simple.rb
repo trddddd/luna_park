@@ -2,7 +2,9 @@
 
 module LunaPark
   module Mappers
+    ##
     # Abstract mapper for transform data from Entity attributes schema to Database row schema
+    #
     # @example
     #   class Entities::Transaction < LunaPark::Entities::Nested
     #     attr :uid
